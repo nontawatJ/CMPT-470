@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users Information</title>
+	<meta charset="utf-8">
+	<link rel = 'styleSheet' href = "public/css/stylesheet.css">
+	<script src = "public/java/function.js"></script>
+</head>
+<body>
+
+	<h1>User(s): 
+		<span id="num">0</span>
+	</h1>
+	<button class="open_form" onclick="openForm()">Add User</button> 
+	
+	<div class="formPopup" id="usersForm" >
+		<form class="addUserForm" >
+			<h1 class="label_title"> Add User </h1>
+			<label> Name: </label><br>
+			<input id="userName" type="text" name="userName" placeholder="eg. sponge bob" ><br>
+			<label> Email:</label><br>
+			<input id="email" type="text" name="email" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"placeholder="eg. spongebob@bob.com" ><br>
+			<label> Birthday: </label><br>
+			<input id="bdate" type="date" name="bdate" min="1980-01-01" max="2000-01-01"s><br>
+
+			<button class="addButton" type="button" onclick="addUser()">Add User</button>
+			<button class="closeForm" onclick="closeForm()" type="button">Cancel</button>
+		</form>
+	</div>
+	<div class="userList" id="userList">
+		
+		<table id="table" border=1>
+			<tr>
+				<th class="t1" onclick="sortTable(0)">Name</th>
+				<th class="t2" onclick="sortTable(1)">Email</th>
+				<th class="t3" onclick="sortTable(2)">Birthday</th>
+				<th class="t4" onclick="sortTable(3)">Age</th>
+			</tr>
+			<tr>
+				<td class="row_a" colspan="4"> the average age of users is <span class="avg_num" id="average">0</span> </td>
+			</tr>
+
+		</table>
+		<p></p>
+		
+	</div>
+
+</body>
+</html>

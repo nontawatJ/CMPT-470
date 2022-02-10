@@ -1,0 +1,101 @@
+body {
+	background-color: #e8e7e3;
+}
+.formPopup {
+	display: none;
+	position: absolute;
+	margin-left:350px;
+}
+.addUserForm {
+	position: absolute;
+	background-color: #D0D3D4 ;
+	left:470px;
+	top:-30px;
+	height:580px;
+	width:550px;
+	padding: 20px;
+}
+.addUserForm input[type=text], .addUserForm input[type=email], .addUserForm input[type=date] {
+	width: 90%;
+	height: 4%;
+	padding: 15px;
+	margin:5px 0 22px 0;
+	background-color: white;
+	font-size: 200%;
+	border: 3px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 750px;
+  margin-left:20px;
+}
+th {
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  background-color: #4CAF50;
+  color: white;
+}
+td {
+	background-color: #dbd9d0;
+	padding: 15px;
+	font-size: 25px;
+}
+.avg_num {
+	font-weight: bold;
+}
+.label_title {
+	font-size: 300%;
+	text-decoration: underline;
+
+}
+label {
+	font-size: 150%;
+	font-weight: bold;
+}
+.addButton {
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 32px;
+	font-size:35px;
+	cursor: pointer;
+	border-radius: 12px;
+	opacity: 0.9;
+}
+.closeForm {
+	background-color: #ff3333;
+	color: white;
+	padding: 15px 32px;
+	font-size:35px;
+	cursor: pointer;
+	border-radius: 12px;
+	margin-left: 20px;
+	opacity: 0.9;
+}
+
+.open_form {
+	position: absolute;
+	background-color: #2e3166;
+	color:white;
+	font-size: 20px;
+	padding: 15px 32px;
+	border-radius: 12px;
+	margin-left: 610px;
+	top:35px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.t1:hover,.t2:hover,.t3:hover,.t4:hover{
+	background-color: #426b47;
+}
+
+.addButton:hover,.closeForm:hover, .open_form:hover {
+	opacity:1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1 {
+	font-size: 50px;
+	margin-left: 20px;
+	top:10px;
+}

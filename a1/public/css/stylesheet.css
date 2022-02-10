@@ -1,0 +1,236 @@
+html { 
+	overflow-y: scroll;
+	overflow-x:hidden;
+	height: 1100px;
+}
+body { 
+	background-color: #E0E0E0;
+}
+header {
+	overflow: hidden;
+	position: fixed;
+	background-color: #363940;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+}
+h1 .Text {
+	float: left;
+	margin-left: 20px;
+	color: #D46C39;
+	font-family: Sans-serif;
+}
+h1 .Inven {
+	margin-left: 10px;
+	color: white;
+	font-family: Sans-serif;
+}
+h1 .menu {
+	
+	margin-right: 10px;
+	float: right;
+}
+.box_1 {
+	position: absolute;
+	background-color: white;
+	height: 430px;
+	width: 23.5%;
+	left: 0;
+	margin-top: 110px;
+	z-index: -1;
+}
+.box_2 {
+	position: absolute;
+	background-color: white;
+	height: 430px;
+	width: 23.5%;
+	margin-left:25.5%;
+	margin-top: 110px;
+	z-index: -1;
+}
+.box_3 {
+	position: absolute;
+	background-color: white;
+	margin-left: 51%;
+	margin-top: 110px;
+	height: 430px;
+	width: 23.5%;
+	z-index: -1;
+}
+.box_4 {
+	position: absolute;
+	background-color: white;
+	margin-left: 76.5%;
+	margin-top: 110px;
+	height: 430px;
+	width: 23.5%;
+	z-index: -1;
+}
+.box_5 {
+	position: absolute;
+	background-color: white;
+	left:0;
+	margin-top: 570px;
+	height: 430px;
+	width: 23.5%;
+	z-index: -1;
+}
+.box_6 {
+	position: absolute;
+	background-color: white;
+	height: 430px;
+	width: 23.5%;
+	margin-left:25.5%;
+	margin-top: 570px;
+	z-index: -1;
+}
+.box_7 {
+	position: absolute;
+	background-color: white;
+	margin-left: 51%;
+	margin-top: 570px;
+	height: 430px;
+	width: 23.5%;
+	z-index: -1;
+}
+.box_8 {
+	position: absolute;
+	background-color: white;
+	margin-left: 76.5%;
+	margin-top: 570px;
+	height: 430px;
+	width: 23.5%;
+	z-index: -1;
+}
+.imgBox {
+	width: 100%;
+	height: 70%;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.description {
+	margin-top: 5%;
+	margin-left: 10%;
+	width:100%;
+} 
+.description b {
+	font-size: 120%;
+	font-family: Sans-serif;
+}
+button {
+	margin-left: 10%;
+	margin-top: 5%;
+	padding: 5% 6%;
+	background-color: #E67E22;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 150%;
+}
+.button {
+	display: none;
+}
+.box_1:hover .button {
+	display: block;
+}
+.box_2:hover .button {
+	display: block;
+}
+.box_3:hover .button {
+	display: block;
+}
+.box_4:hover .button {
+	display: block;
+}
+.box_5:hover .button {
+	display: block;
+}
+.box_6:hover .button {
+	display: block;
+}
+.box_7:hover .button {
+	display: block;
+}
+.box_8:hover .button {
+	display: block;
+}
+@media only screen and (max-width: 770px) {
+	html {
+		height:2000px;
+	}
+	.box_1 {
+		position: absolute;
+		background-color: white;
+		height: 430px;
+		width: 50%;
+		left:0;
+		margin-top: 110px;
+		z-index: -1;
+	}
+	.box_2 {
+		position: absolute;
+		background-color: white;
+		height: 430px;
+		width: 50%;
+		margin-left:50%;
+		margin-top: 110px;
+		z-index: -1;
+	}
+	.box_3 {
+		position: absolute;
+		background-color: white;
+		margin-left: -10px;
+		margin-top: 570px;
+		height: 430px;
+		width: 50%;
+		z-index: -1;
+	}
+	.box_4 {
+		position: absolute;
+		background-color: white;
+		margin-left: 50%;
+		margin-top: 570px;
+		height: 430px;
+		width: 50%;
+		z-index: -1;
+	}
+	.box_5 {
+		position: absolute;
+		background-color: white;
+		left:0;
+		margin-top: 1030px;
+		height: 430px;
+		width: 50%;
+		z-index: -1;
+	}
+	.box_6 {
+		position: absolute;
+		background-color: white;
+		height: 430px;
+		width: 50%;
+		margin-left:50%;
+		margin-top: 1030px;
+		z-index: -1;
+	}
+	.box_7 {
+		position: absolute;
+		background-color: white;
+		margin-left: -10px;
+		margin-top: 1490px;
+		height: 430px;
+		width: 50%;
+		z-index: -1;
+	}
+	.box_8 {
+		position: absolute;
+		background-color: white;
+		margin-left: 50%;
+		margin-top: 1490px;
+		height: 430px;
+		width: 50%;
+		z-index: -1;
+	}
+}
